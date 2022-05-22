@@ -3,7 +3,7 @@ var audio = document.getElementById("audio");
 var isPlaying = false;
 
 function play() {
-    audio.volume = 0.2;
+    audio.volume = 1;
     isPlaying ? audio.pause() : audio.play();
   };
   
